@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .cat-species {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .species-block {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: 250px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .species-block img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .comment-section {
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .comment-section textarea {
+            width: 100%;
+            height: 60px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+
+        .comment-section button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            .species-block {
+                width: 100%;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a la Página de Gatos</h1>
+        <p>Explora diferentes especies de gatos</p>
+    </header>
+    <main>
+        <section class="cat-species">
+            <div class="species-block">
+                <h2>Siameses</h2>
+                <img src="https://cdn-aahmh.nitrocdn.com/mwIJloVUffDtKiCgRcivopdgojcJrVwT/assets/images/optimized/rev-31cad3f/www.cozycatfurniture.com/image/siamese-cat-cover.jpg" alt="Gato Siamés">
+                <p>Los gatos siameses son conocidos por su distintiva apariencia y personalidad. Tienen un cuerpo esbelto, patas largas y orejas grandes. Su pelaje es corto y suave, con un color claro en el cuerpo y marcas oscuras en las orejas, cara, patas y cola. Son muy sociables, cariñosos y vocales, a menudo formando un fuerte vínculo con sus dueños. Les encanta jugar y son muy activos.</p>
+                <div class="comment-section">
+                    <h3>Comentarios:</h3>
+                    <textarea placeholder="Escribe tu comentario..."></textarea>
+                    <button>Enviar</button>
+                </div>
+            </div>
+            <div class="species-block">
+                <h2>Persas</h2>
+                <img src="https://media.istockphoto.com/id/633114008/photo/white-persian-cats.jpg?s=612x612&w=0&k=20&c=CwjTbqPF7_4aO9TUhX3XpaPJ7ozxVpY4-tKpKliK-rg=" alt="Gato Persa">
+                <p>Los gatos persas son famosos por su hermoso pelaje largo y su cara plana. Tienen un cuerpo robusto y patas cortas, lo que les da un aspecto adorable. Su temperamento es tranquilo y cariñoso, lo que los convierte en excelentes compañeros.</p>
+                <div class="comment-section">
+                    <h3>Comentarios:</h3>
+                    <textarea placeholder="Escribe tu comentario..."></textarea>
+                    <button>Enviar</button>
+                </div>
+            </div>
+            <div class="species-block">
+                <h2>Maine Coons</h2>
+                <img src="https://moderncat.com/wp-content/uploads/2015/12/MaineCoon.jpg" alt="Gato Maine Coon">
+                <p>Los Maine Coons son conocidos por su tamaño impresionante y su pelaje espeso. Tienen una personalidad amigable y juguetona, y son muy sociables.</p>
+                <div class="comment-section">
+                    <h3>Comentarios:</h3>
+                    <textarea placeholder="Escribe tu comentario..."></textarea>
+                    <button>Enviar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Página de Gatos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
